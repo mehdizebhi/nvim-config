@@ -22,3 +22,11 @@ end
 --   on_init = nvlsp.on_init,
 --   capabilities = nvlsp.capabilities,
 -- }
+
+lspconfig.jdtls.setup({
+  cmd = { "C:\\Users\\MAHDIZ~1\\AppData\\Local\\nvim-data\\mason\\bin\\jdtls.CMD" }
+})
+
+lspconfig.kotlin_language_server.setup({
+  cmd = { "C:\\Users\\MAHDIZ~1\\AppData\\Local\\nvim-data\\mason\\bin\\kotlin-language-server.CMD" }
+})
