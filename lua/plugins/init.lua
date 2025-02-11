@@ -10,9 +10,9 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       require "configs.lspconfig"
+      require("lspconfig").lemminx.setup({})
     end,
   },
-
 
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
